@@ -73,16 +73,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .line1 {
   width: 15%;
   height: 8%;
-  -webkit-transform: skewY(-4deg); }
+  -webkit-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  transform: skewY(-4deg); }
   .line1 .item1 {
     border-top-right-radius: 0.3076923076923066% 0%;
     border-bottom-left-radius: 75.076923% 72.91666666666667%;
     height: 90%;
     position: relative;
     left: 10%;
-    -webkit-transform: skewX(15deg); }
+    -webkit-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    transform: skewX(15deg); }
   .line1 .item2 {
     -webkit-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
     height: 90%;
     border-bottom-right-radius: 28% 16%;
     border-top-right-radius: 7% 20%; }
@@ -90,15 +102,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .line2 {
   width: 40%;
   height: 12%;
-  -webkit-transform: rotateZ(-5deg); }
+  -webkit-transform: rotateZ(-5deg);
+  -o-transform: rotateZ(-5deg);
+  -moz-transform: rotateZ(-5deg);
+  -ms-transform: rotateZ(-5deg);
+  transform: rotateZ(-5deg); }
   .line2 .item1 {
     border-top-left-radius: 8.935484%;
     border-bottom-left-radius: 78.483871% 80.777778%;
     -webkit-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
     height: 87%;
     width: 40%; }
   .line2 .item2 {
     -webkit-transform: skewY(-4deg);
+    -o-transform: skewY(-4deg);
+    -moz-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
     border-bottom-right-radius: 54.30107526881721% 67.9245283018868%;
     border-bottom-left-radius: 56% 23%;
     width: 60%;
@@ -109,17 +133,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .line3 {
   width: 70%;
   height: 12%;
-  -webkit-transform: rotateZ(-3deg); }
+  -webkit-transform: rotateZ(-3deg);
+  -o-transform: rotateZ(-3deg);
+  -moz-transform: rotateZ(-3deg);
+  -ms-transform: rotateZ(-3deg);
+  transform: rotateZ(-3deg); }
   .line3 .item1 {
     border-bottom-left-radius: 58.05043728552132% 45.614035087719294%;
     border-top-left-radius: 8.433119158878505% 21.052631578947366%;
     border-bottom-right-radius: 4.566385144385222% 64.91228070175438%;
     border-top-right-radius: 6.902833742516066% 38.59649122807017%;
     -webkit-transform: rotateZ(-3deg) skewX(28deg);
+    -o-transform: rotateZ(-3deg) skewX(28deg);
+    -moz-transform: rotateZ(-3deg) skewX(28deg);
+    -ms-transform: rotateZ(-3deg) skewX(28deg);
+    transform: rotateZ(-3deg) skewX(28deg);
     position: relative;
     left: 46px; }
   .line3 .item2 {
     -webkit-transform: rotateZ(3deg) skewX(-40deg);
+    -o-transform: rotateZ(3deg) skewX(-40deg);
+    -moz-transform: rotateZ(3deg) skewX(-40deg);
+    -ms-transform: rotateZ(3deg) skewX(-40deg);
+    transform: rotateZ(3deg) skewX(-40deg);
     border-bottom-right-radius: 69.200342% 69.714286%;
     border-top-right-radius: 7.519977168949779% 10.714285714285714%;
     position: relative;
@@ -131,14 +167,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%;
   height: 17%;
   -webkit-transform: rotateZ(1deg);
+  -o-transform: rotateZ(1deg);
+  -moz-transform: rotateZ(1deg);
+  -ms-transform: rotateZ(1deg);
+  transform: rotateZ(1deg);
   position: relative;
   margin-bottom: 2%; }
   .line4 .item1 {
     border-bottom-left-radius: 27.386810302734375% 52.459016393442624%;
     border-top-left-radius: 13.958239% 16.39344262295082%;
-    -webkit-transform: skewX(16deg);
     border-top-right-radius: 30%;
     border-bottom-right-radius: 20% 63%;
+    -webkit-transform: skewX(16deg);
+    -o-transform: skewX(16deg);
+    -moz-transform: skewX(16deg);
+    -ms-transform: skewX(16deg);
+    transform: skewX(16deg);
     height: 70%;
     position: relative;
     top: 10%;
@@ -165,7 +209,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: #0b327e;
   border-top-left-radius: 58.2089552238806% 25%;
   border-top-right-radius: 23.88059701492537% 8.601919210182047%;
-  -webkit-transform: skewY(-7deg) skewX(2deg); }
+  -webkit-transform: skewY(-7deg) skewX(2deg);
+  -o-transform: skewY(-7deg) skewX(2deg);
+  -moz-transform: skewY(-7deg) skewX(2deg);
+  -ms-transform: skewY(-7deg) skewX(2deg);
+  transform: skewY(-7deg) skewX(2deg); }
 .line5 .item2 {
   float: none;
   width: 100%;
@@ -173,8 +221,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: #0b327e;
   border-bottom-left-radius: 88.88888888888889% 37.66233766233766%;
   border-bottom-right-radius: 9.523809523809518% 3.4632034632034703%;
-  -webkit-transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
   border-top-right-radius: 20%;
+  -webkit-transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
+  -o-transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
+  -moz-transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
+  -ms-transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
+  transform: skewY(6deg) skewY(6deg) rotateZ(3deg);
   position: relative;
   top: -29px; }
 
