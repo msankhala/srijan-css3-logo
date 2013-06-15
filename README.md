@@ -1,2 +1,2 @@
 ## Srijan css3 logo
-The page inspired me to devlop Pure CSS3 Srijan logo is http://www.bchanx.com/logos-in-pure-css-demo - automatic!
+The page inspired me to devlop Pure CSS3 Srijan logo is <a href="http://www.bchanx.com/logos-in-pure-css-demo" target="_blank">http://www.bchanx.com/logos-in-pure-css-demo</a>
