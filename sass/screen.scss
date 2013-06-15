@@ -4,3 +4,106 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+//custom code after here
+$srijan-horz-color: orange;
+$srijan-vert-color: blue;
+
+.container{
+  width: 540px;
+  height: 440px;
+  padding: 0 10px;
+}
+.line{
+  background: transparent;
+  margin: 5% auto;
+  .item1, .item2{
+    background: $srijan-horz-color;
+  }
+}
+.column{
+  background: $srijan-vert-color;
+  width: 20%;
+  height: 38%;
+  margin: auto;
+}
+.item1, .item2{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.line1{
+  width: 15%; 
+  height: 8%;
+  -webkit-transform: skewY(-4deg);
+  .item1{
+    border-top-right-radius: 0.3076923076923066% 0%;
+    border-bottom-left-radius: 75.076923% 72.91666666666667%;
+
+  }
+  .item2{
+
+  }
+}
+.line2{
+  width: 40%;
+  height: 12%;
+  -webkit-transform: rotateZ(-5deg);
+  .item1{
+    border-top-left-radius: 8.935484%;
+    border-bottom-left-radius: 78.483871% 80.777778%;
+    -webkit-transform: skewY(4deg);
+    height: 87%;
+    width: 40%;  }
+  .item2{
+    -webkit-transform: skewY(-4deg);
+    border-bottom-right-radius: 54.30107526881721% 67.9245283018868%;
+    border-bottom-left-radius: 56% 23%;
+    width: 60%;
+    position: relative;
+    left: -7px;
+    top: -2px;
+  }
+}
+.line3{
+  width: 70%;
+  height: 12%;
+  .item1{
+    border-bottom-left-radius: 58.05043728552132% 45.614035087719294%;
+    border-top-left-radius: 8.433119158878505% 21.052631578947366%;
+    border-bottom-right-radius: 4.566385144385222% 64.91228070175438%;
+    border-top-right-radius: 6.902833742516066% 38.59649122807017%;
+    -webkit-transform: rotateZ(-3deg) skewX(28deg);
+    position: relative;
+    left: 46px;
+  }
+  .item2{
+    -webkit-transform: rotateZ(3deg) skewX(-40deg);
+    border-bottom-right-radius: 69.200342% 69.714286%;
+    border-top-right-radius: 7.519977168949779% 10.714285714285714%;
+    position: relative;
+    top: -2px;
+    border-top-left-radius: 10%;
+    left: -9px;
+  }
+}
+.line4{
+  width: 100%;
+  height: 13%;
+  .item1{
+    border-bottom-left-radius: 27.386810302734375% 52.459016393442624%;
+    border-top-left-radius: 3.958238874162946% 16.39344262295082%;
+  }
+  .item2{
+    border-top-right-radius: 14% 55.73770491803278%;
+    border-bottom-right-radius: 23.470332554408486% 47.540983606557376%;
+  } 
+}
+.line5{
+  .item1{
+
+  }
+  .item2{
+
+  } 
+}
