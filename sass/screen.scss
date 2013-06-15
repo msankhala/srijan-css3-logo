@@ -9,13 +9,16 @@
 $srijan-horz-color: orange;
 $srijan-vert-color: rgba(11, 50, 126, 1);
 
+div{
+  box-sizing: border-box;
+}
 .container{
   width: 540px;
   height: 440px;
   padding: 0 10px;
   &:hover{
     div{
-      // outline: 1px solid black;
+      border: 1px solid black;
     }
   }
 }

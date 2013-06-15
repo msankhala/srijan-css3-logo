@@ -49,10 +49,15 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+div {
+  box-sizing: border-box; }
+
 .container {
   width: 540px;
   height: 440px;
   padding: 0 10px; }
+  .container:hover div {
+    border: 1px solid black; }
 
 .line {
   background: transparent;
